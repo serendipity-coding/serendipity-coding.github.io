@@ -1,0 +1,83 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Romanesco&display=swap');
+
+body{
+    background: #B2EBF2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    color: #006064;
+    font-family: 'Romanesco', cursive;
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Romanesco', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.content{
+    background: #fff;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding:  20px 30px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+}
+
+form input{
+    width: 70%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+form input:focus{
+    outline: none;
+    border-bottom: 3px solid #006064;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+
+form p {
+    color: #b71c1c;
+    margin-top: 10px;
+}
+
+button{
+    border: 1px #006064 solid;
+    background: #006064;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100px;
+    letter-spacing: 1px;
+    color: white;
+    padding: 10px auto;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.argoName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #E0F2F1;
+}
+.argoName{
+    cursor: pointer;
+    font-size: 18px;
+}
+.argoName i:hover{
+    color: #b71c1c;
+}
+
