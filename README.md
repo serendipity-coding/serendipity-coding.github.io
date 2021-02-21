@@ -1,4 +1,2 @@
-# firebase-firestore-playlist
-All course files for the Firebase Firestore playlist on The Net Ninja YouTube channel. 
-
-Make sure you select the correct branch to see the files :)
+# Golden fleece quest
+In this quest I used firebase to store my Argonauts list and displayed it dynamically using JavaScript
